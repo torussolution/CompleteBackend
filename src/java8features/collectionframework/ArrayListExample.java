@@ -11,6 +11,19 @@ import java.util.List;
 * via index we can access element
 * primitive types are not allowed
 * */
+/*
+* add
+* addAll
+* clear
+* remove
+* removeIf
+* removeAll
+* indexOf
+* lastIndexOf
+* get
+* size
+* isEmpty
+* */
 public class ArrayListExample {
     List list = new ArrayList();
     List<String> list1 = new ArrayList<>();
@@ -49,6 +62,8 @@ public class ArrayListExample {
         System.out.println("append all the list element at specific index of another list");
         list2.addAll(3,list1);
         System.out.println(list2);
+
+
     }
 
     public  void clearAllData()
