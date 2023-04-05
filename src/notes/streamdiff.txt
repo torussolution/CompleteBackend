@@ -1,0 +1,18 @@
+
+Stream :
+Runs on a single-core of the computer
+Performance is poor
+Order is maintained
+Only a single iteration at a time just like the for-loop.
+Each iteration waits for currently running one to finish,
+More reliable and less error
+Platform independent
+
+Parallel Stream :
+Utilize the multiple cores of the computer.
+The performance is high.
+Doesn’t care about the order,
+Operates multiple iterations simultaneously in different available cores.
+Waits only if no cores are free or available at a given time.
+Less reliable and error-prone.
+Platform dependent
